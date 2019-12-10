@@ -1,0 +1,44 @@
+{
+  "name": "coderr.client.vue",
+  "version": "1.0.0-rc01",
+  "description": "Error detection and analytics for Vue based applications",
+  "main": "dist/coderr.vue.js",
+  "module": "dist/coderr.vue.esm.js",
+  "unpkg": "dist/coderr.vue.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderrio/coderr.client.vue.git"
+  },
+  "keywords": [
+    "error",
+    "analytics",
+    "error-handler"
+  ],
+  "author": "1TCompany AB",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/coderrio/coderr.client.vue/issues"
+  },
+  "homepage": "https://github.com/coderrio/coderr.client.vue#readme",
+  "devDependencies": {
+    "rollup": "^1.27.5",
+    "rollup-plugin-commonjs": "^9.1.8",
+    "rollup-plugin-delete": "^1.0.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-terser": "^5.1.2",
+    "rollup-plugin-ts": "^0.2.0",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.18.0",
+    "typedoc": "^0.15.0",
+    "typescript": "^3.7.2",
+    "typescript-tslint-plugin": "^0.5.5",
+    "uglify-js": "^3.6.0"
+  },
+  "dependencies": {
+    "coderr.client": "^1.0.0-rc01",
+    "vue": "^2.6.10"
+  }
+}
